@@ -5,13 +5,18 @@ import javax.persistence.*;
 
 /** @Entity mostra que esta classe está relacionada a uma tabela no banco*/
 @Entity
-public class Conta {
+@Table(name="conta")
+public class Conta{
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy=GenerationType.IDENTITY) /** cria um auto incremento*/
     private int id;
+    @Column
     private String titular;
+    @Column
     private String banco;
+    @Column
     private String agencia;
+    @Column
     private String numero;
 
     public int getId() {

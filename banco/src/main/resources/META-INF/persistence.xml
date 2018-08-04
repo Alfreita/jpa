@@ -18,11 +18,11 @@
             <property name="javax.persistence.jdbc.driver"
                       value="com.mysql.jdbc.Driver" />
             <property name="javax.persistence.jdbc.url"
-                      value="jdbc:mysql://f26b02dd-2b23-47d5-b04c-a8be00bec928.mysql.sequelizer.com/dbf26b02dd2b2347d5b04ca8be00bec928" />
+                      value="jdbc:mysql://localhost/jpa" />
             <property name="javax.persistence.jdbc.user"
-                      value="wghcfiafpsoyvgdt" />
+                      value="root" />
             <property name="javax.persistence.jdbc.password"
-                      value="Ta88RMyrDiDzPWLzYuUxYjkAZoYQYHQDNwKVwvexo2barfmiebt6PPjJWFgBWQA5" />
+                      value="" />
 
             <!--  propriedades do hibernate -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
