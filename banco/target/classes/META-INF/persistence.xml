@@ -12,6 +12,7 @@
 
         <!-- entidade mapeada -->
         <class>conta.Conta</class>
+        <class>conta.Movimentacao</class>
 
         <properties>
             <!-- dados da conexao -->
