@@ -3,6 +3,7 @@ package conta;
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.Calendar;
+import java.util.List;
 
 @Entity
 public class Movimentacao {
@@ -22,6 +23,9 @@ public class Movimentacao {
 
     @ManyToOne
     private Conta conta;
+
+    @ManyToMany
+    private List<Categoria> categoria;
 
     public Conta getConta() {
         return conta;
