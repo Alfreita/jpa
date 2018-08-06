@@ -1,5 +1,6 @@
 package jpa;
 
+import connection.JpaUtil;
 import conta.Conta;
 
 import javax.persistence.EntityManager;
@@ -10,11 +11,10 @@ public class CriaTabelaConta {
 
     public static void main(String[] args){
 
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("conta");
-        EntityManager em = emf.createEntityManager();
+
+        EntityManager em = new JpaUtil().getEntityManager();
 
         em.close();
-        emf.close();
-
+        JpaUtil.closeEMF();
     }
 }

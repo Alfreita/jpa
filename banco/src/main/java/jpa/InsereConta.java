@@ -1,5 +1,6 @@
 package jpa;
 
+import connection.JpaUtil;
 import conta.Conta;
 
 import javax.persistence.EntityManager;
@@ -14,8 +15,7 @@ public class InsereConta {
         conta.setNumero("1234");
         conta.setTitular("Victor Almeida");
 
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("conta");
-        EntityManager em = emf.createEntityManager();
+        EntityManager em = new JpaUtil().getEntityManager();
 
         em.getTransaction().begin();
         em.persist(conta);
@@ -23,8 +23,11 @@ public class InsereConta {
 
         System.out.println("ID da tarefa:  "+ conta.getId());
 
+
         em.close();
-        emf.close();
+        JpaUtil.closeEMF();
+
+
 
 
     }
