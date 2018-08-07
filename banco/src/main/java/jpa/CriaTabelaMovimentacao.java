@@ -17,7 +17,7 @@ public class CriaTabelaMovimentacao {
         conta.setBanco("1234");
         conta.setNumero("1234");
         conta.setTitular("Victor Almeida");
-*/
+        */
         Movimentacao movimentacao = new Movimentacao();
         movimentacao.setData(Calendar.getInstance());
         movimentacao.setDescricao("Churrascaria");
