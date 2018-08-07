@@ -27,7 +27,7 @@ public class CriaTabelaMovimentacao {
         EntityManager em = new JpaUtil().getEntityManager();
         em.getTransaction().begin();
 
-        Conta conta = em.find(Conta.class,1);
+        Conta conta = em.find(Conta.class,4);
         movimentacao.setConta(conta);
         em.persist(conta);
         em.persist(movimentacao);

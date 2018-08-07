@@ -11,9 +11,9 @@ public class InsereConta {
     public static void main (String[] args){
         Conta conta  = new Conta();
         conta.setAgencia("1234");
-        conta.setBanco("1234");
+        conta.setBanco("Itau");
         conta.setNumero("1234");
-        conta.setTitular("Victor Almeida");
+        conta.setTitular("Claudio");
 
         EntityManager em = new JpaUtil().getEntityManager();
 
