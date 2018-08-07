@@ -10,6 +10,7 @@ public class Cliente {
     private String nome;
     private String profissao;
     private String endereco;
+    @JoinColumn(unique = true)
     @OneToOne
     private Conta conta;
 
@@ -43,5 +44,9 @@ public class Cliente {
 
     public void setEndereco(String endereco) {
         this.endereco = endereco;
+    }
+
+    public void setConta(Conta conta) {
+        this.conta = conta;
     }
 }
