@@ -5,11 +5,14 @@ import conta.Conta;
 import conta.Movimentacao;
 import conta.TipoMovimentacao;
 
-import javax.persistence.Entity;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import java.util.List;
 
+/**
+ * O JQPL é feita para abstrair o mundo relacional,permitindo que os desenvolvedores se preocupem apenas com objetos.Por consequencia,não precisamos referenciar a uma chave estrangeira
+ * já que é algo qu faz parte do modelo relacional
+ */
 public class Jpql {
     public static void main (String[] args){
 
