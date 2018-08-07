@@ -21,7 +21,9 @@ public class Jpql {
 
         Conta conta = new Conta();
         conta.setId(2);
-
+        /**
+         * Query orientada a objetos e não mais orientada a colunas de banco de dados
+         */
         String jpql ="select m from Movimentacao m where m.conta = :pConta" + " and m.tipo = :pTipo" + " order by m.valor desc";
         Query query = em.createQuery(jpql);
         query.setParameter("pConta",conta);
