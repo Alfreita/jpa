@@ -1,12 +1,12 @@
 package jpa;
 
-import connection.JpaUtil;
-import conta.Categoria;
-import conta.Movimentacao;
+        import connection.JpaUtil;
+        import conta.Categoria;
+        import conta.Movimentacao;
 
-import javax.persistence.EntityManager;
-import javax.persistence.Query;
-import java.util.List;
+        import javax.persistence.EntityManager;
+        import javax.persistence.Query;
+        import java.util.List;
 
 public class MovimentacoesPorCategoria {
     public static void main(String[] args){

@@ -1,6 +1,8 @@
 package conta;
 
 import javax.persistence.*;
+import java.util.BitSet;
+import java.util.List;
 
 
 /** @Entity mostra que esta classe está relacionada a uma tabela no banco*/
@@ -18,6 +20,12 @@ public class Conta{
     private String agencia;
     @Column
     private String numero;
+    @OneToMany(mappedBy = "conta")
+    private List<Movimentacao> movimentacoes;
+
+    public List<Movimentacao> getMovimentacoes() {
+        return movimentacoes;
+    }
 
     public int getId() {
         return id;
@@ -58,4 +66,6 @@ public class Conta{
     public void setNumero(String numero) {
         this.numero = numero;
     }
+
+
 }

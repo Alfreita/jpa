@@ -13,7 +13,7 @@ public class InsereConta {
         conta.setAgencia("1234");
         conta.setBanco("Itau");
         conta.setNumero("1234");
-        conta.setTitular("Claudio");
+        conta.setTitular("roberto");
 
         EntityManager em = new JpaUtil().getEntityManager();
 
