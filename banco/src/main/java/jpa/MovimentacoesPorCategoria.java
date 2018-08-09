@@ -2,7 +2,9 @@ package jpa;
 
         import connection.JpaUtil;
         import conta.Categoria;
+        import conta.Conta;
         import conta.Movimentacao;
+        import conta.TipoMovimentacao;
 
         import javax.persistence.EntityManager;
         import javax.persistence.Query;
@@ -13,13 +15,13 @@ public class MovimentacoesPorCategoria {
         EntityManager em = new JpaUtil().getEntityManager();
         em.getTransaction().begin();
 
-        Categoria categoria = new Categoria();
-        categoria.setId(1);
-
-        String jpql ="select m from Movimentacao m join m.categoria c where c = :pCategoria";
+        Conta conta = new Conta();
+        conta.setId(1);
+        String jpql ="select m from Movimentacao m where m.conta = :pConta"+ " and m.tipo = :pTipo"+" order by m.valor desc";
 
         Query query = em.createQuery(jpql);
-        query.setParameter("pCategoria",categoria);
+        query.setParameter("pConta",conta);
+        query.setParameter("pTipo", TipoMovimentacao.SAIDA);
 
         List<Movimentacao> resultados = query.getResultList();
 
