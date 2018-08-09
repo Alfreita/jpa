@@ -20,6 +20,7 @@ public class MovimentacoesComCategoria {
         Conta conta = new Conta();
         conta.setId(2);
 
+        /*
         Movimentacao movimentacao1 = new Movimentacao();
         movimentacao1.setData(Calendar.getInstance()); //hoje
         movimentacao1.setDescricao("Viagem à SP");
@@ -27,12 +28,12 @@ public class MovimentacoesComCategoria {
         movimentacao1.setValor(new BigDecimal("100.0"));
         movimentacao1.setCategorias(Arrays.asList(categoria1,categoria2));
         movimentacao1.setConta(conta);
-
+        */
         Movimentacao movimentacao2 = new Movimentacao();
         movimentacao2.setData(Calendar.getInstance()); //hoje
-        movimentacao2.setDescricao("Viagem à RJ");
+        movimentacao2.setDescricao("noteBook");
         movimentacao2.setTipo(TipoMovimentacao.SAIDA);
-        movimentacao2.setValor(new BigDecimal("100.0"));
+        movimentacao2.setValor(new BigDecimal("900.0"));
         movimentacao2.setCategorias(Arrays.asList(categoria1,categoria2));
         movimentacao2.setConta(conta);
 
@@ -41,7 +42,7 @@ public class MovimentacoesComCategoria {
 
         em.persist(categoria1);
         em.persist(categoria2);
-        em.persist(movimentacao1);
+        //em.persist(movimentacao1);
         em.persist(movimentacao2);
 
         em.getTransaction().commit();
