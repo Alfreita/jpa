@@ -32,8 +32,8 @@ public class TodasAsMovimentacoes {
         for (Conta conta : todasAsContas) {
             System.out.println("Titular: " + conta.getTitular());
             System.out.println("Movimentacoes: ");
-           System.out.println(conta.getMovimentacoes());
-        }
+            System.out.println(conta.getMovimentacoes());
+    }
 
         em.close();
         JpaUtil.closeEMF();
