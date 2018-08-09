@@ -6,10 +6,9 @@ import conta.TipoMovimentacao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
-import javax.swing.text.html.parser.Entity;
 import java.math.BigDecimal;
 
-public class Test {
+public class SomaDasMovimentacoesDeSaida {
     public static void main(String[] args){
         EntityManager em = new JpaUtil().getEntityManager();
         em.getTransaction().begin();
@@ -29,8 +28,6 @@ public class Test {
         em.getTransaction().commit();
         em.close();
         JpaUtil.closeEMF();
-
-
 
     }
 }
