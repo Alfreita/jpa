@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="412ab977-b4ff-4760-b162-9a3e1136e60d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/popula/PopulaMovimentacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/53c48c77-de0b-4d1d-bfc9-d92517d99af8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/53c48c77-de0b-4d1d-bfc9-d92517d99af8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/SomaDasMovimentacoesDeSaida.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/popula/PopulaConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/popula/PopulaConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpa/MovimentacoesPorCategoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa/MovimentacoesPorCategoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jpa/MovimentacoesPorCategoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jpa/MovimentacoesPorCategoria.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,8 +97,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="50" />
-          <entry key="java" value="5934" />
+          <entry key="dummy" value="78" />
+          <entry key="java" value="6457" />
           <entry key="sql" value="50" />
           <entry key="txt" value="3" />
           <entry key="xml" value="22" />
@@ -106,31 +106,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5933" />
+          <entry key="JAVA" value="6456" />
           <entry key="JPA QL" value="1" />
-          <entry key="PLAIN_TEXT" value="53" />
+          <entry key="PLAIN_TEXT" value="81" />
           <entry key="Scratch" value="50" />
           <entry key="XML" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="categoria" value="2" />
-          <entry key="cliente" value="2" />
-          <entry key="conta" value="8" />
-          <entry key="java" value="103" />
-          <entry key="movimentacao" value="4" />
-          <entry key="movimentacao_categoria" value="1" />
+          <entry key="categoria" value="3" />
+          <entry key="cliente" value="3" />
+          <entry key="conta" value="9" />
+          <entry key="java" value="112" />
+          <entry key="movimentacao" value="6" />
+          <entry key="movimentacao_categoria" value="2" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="5" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="17" />
-          <entry key="JAVA" value="103" />
+          <entry key="Database Element" value="23" />
+          <entry key="JAVA" value="112" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -141,31 +141,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/popula/PopulaConta.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="629">
+              <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://53c48c77-de0b-4d1d-bfc9-d92517d99af8/schema/jpa/table/conta">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jpa/MovimentacoesComCategoria.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jpa/MovimentacoesPorCategoria.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="48" column="27" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="48" selection-end-column="27" />
+            <state relative-caret-position="272">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,22 +162,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/popula/PopulaMovimentacao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jpa/SomaDasMovimentacoesDeSaida.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="149" column="22" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+            <state relative-caret-position="323">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://53c48c77-de0b-4d1d-bfc9-d92517d99af8/schema/jpa/table/movimentacao">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -237,13 +216,15 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/53c48c77-de0b-4d1d-bfc9-d92517d99af8/console.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/conta/Movimentacao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jpa/MovimentacoesPorCategoria.java" />
         <option value="$PROJECT_DIR$/src/main/java/conta/Conta.java" />
         <option value="$PROJECT_DIR$/src/main/java/jpa/Teste.java" />
         <option value="$PROJECT_DIR$/src/main/java/jpa/RecebeConta.java" />
         <option value="$PROJECT_DIR$/src/main/java/jpa/TodasAsMovimentacoes.java" />
         <option value="$PROJECT_DIR$/src/main/java/popula/PopulaConta.java" />
         <option value="$PROJECT_DIR$/src/main/java/popula/PopulaMovimentacao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jpa/MovimentacoesPorCategoria.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jpa/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jpa/SomaDasMovimentacoesDeSaida.java" />
       </list>
     </option>
   </component>
@@ -351,7 +332,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533823036073" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533838937508" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../webagenda/werb" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -378,7 +359,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PopulaMovimentacao">
+  <component name="RunManager" selected="Application.SomaDasMovimentacoesDeSaida">
+    <configuration name="Jpql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jpa.Jpql" />
+      <module name="banco" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MovimentacoesPorCategoria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jpa.MovimentacoesPorCategoria" />
       <module name="banco" />
@@ -392,34 +386,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PopulaConta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="popula.PopulaConta" />
-      <module name="banco" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="popula.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PopulaMovimentacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="popula.PopulaMovimentacao" />
-      <module name="banco" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="popula.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RecebeConta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jpa.RecebeConta" />
+      <module name="banco" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SomaDasMovimentacoesDeSaida" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jpa.SomaDasMovimentacoesDeSaida" />
       <module name="banco" />
       <extension name="coverage">
         <pattern>
@@ -446,18 +427,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.MovimentacoesPorCategoria" />
-      <item itemvalue="Application.RecebeConta" />
       <item itemvalue="Application.TodasAsMovimentacoes" />
-      <item itemvalue="Application.PopulaConta" />
-      <item itemvalue="Application.PopulaMovimentacao" />
+      <item itemvalue="Application.Jpql" />
+      <item itemvalue="Application.RecebeConta" />
+      <item itemvalue="Application.SomaDasMovimentacoesDeSaida" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PopulaMovimentacao" />
-        <item itemvalue="Application.PopulaConta" />
+        <item itemvalue="Application.SomaDasMovimentacoesDeSaida" />
+        <item itemvalue="Application.MovimentacoesPorCategoria" />
         <item itemvalue="Application.TodasAsMovimentacoes" />
         <item itemvalue="Application.RecebeConta" />
-        <item itemvalue="Application.MovimentacoesPorCategoria" />
+        <item itemvalue="Application.Jpql" />
       </list>
     </recent_temporary>
   </component>
@@ -478,12 +459,12 @@
       <workItem from="1533725902524" duration="11972000" />
       <workItem from="1533752257765" duration="5511000" />
       <workItem from="1533815320978" duration="1637000" />
-      <workItem from="1533816985842" duration="4446000" />
+      <workItem from="1533816985842" duration="10207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62201000" />
+    <option name="totallyTimeSpent" value="67962000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,7 +477,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
@@ -504,7 +484,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Persistence" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.27132195" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2707889" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.329718" />
@@ -512,7 +492,7 @@
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.329718" />
@@ -530,6 +510,39 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Persistence" order="5" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.27132195" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.329718" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -573,26 +586,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jpa/CriaTabelaConta.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/jpa/Jpql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jpa/BuscaContas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jpa/CriaContaCliente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -648,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="30" column="57" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/Persistence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -703,16 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jpa/RecebeConta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jpa/RemoveConta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -720,30 +696,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jpa/MovimentacoesPorCategoria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/conta/Conta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jpa/TodasAsMovimentacoes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="55" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -760,24 +716,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jpa/MovimentacoesComCategoria.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/popula/PopulaConta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="48" column="27" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="48" selection-end-column="27" />
+        <state relative-caret-position="323">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://53c48c77-de0b-4d1d-bfc9-d92517d99af8/schema/jpa/table/categoria">
+    <entry file="das://53c48c77-de0b-4d1d-bfc9-d92517d99af8/schema/jpa/table/movimentacao_categoria">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://53c48c77-de0b-4d1d-bfc9-d92517d99af8/schema/jpa/table/movimentacao_categoria">
+    <entry file="das://53c48c77-de0b-4d1d-bfc9-d92517d99af8/schema/jpa/table/conta">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -791,20 +747,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/popula/PopulaConta.java">
+    <entry file="das://53c48c77-de0b-4d1d-bfc9-d92517d99af8/schema/jpa/table/categoria">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/popula/PopulaMovimentacao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="238">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://53c48c77-de0b-4d1d-bfc9-d92517d99af8/schema/jpa/table/conta">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpa/Jpql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpa/RecebeConta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpa/TodasAsMovimentacoes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpa/BuscaContas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -815,10 +818,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/popula/PopulaMovimentacao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpa/MovimentacoesComCategoria.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="149" column="22" selection-start-line="149" selection-start-column="22" selection-end-line="149" selection-end-column="22" />
+        <state relative-caret-position="455">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpa/MovimentacoesPorCategoria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpa/SomaDasMovimentacoesDeSaida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
